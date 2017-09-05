@@ -50,8 +50,12 @@ const config = { // we use a nightwatch.conf.js file so we can include comments 
             },
             "desiredCapabilities": {
                 "browserName": "chrome",
-                 "javascriptEnabled": true,
-                "acceptSslCerts": true
+                "javascriptEnabled": true,
+                "acceptSslCerts": true,
+                "chromeOptions": {
+                    "args": ["--no-sandbox"]
+                }
+            }
             }
         },
         "chrome": { // your local Chrome browser (chromedriver)

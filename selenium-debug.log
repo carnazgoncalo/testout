@@ -1,39 +1,39 @@
-14:05:29.875 INFO - Selenium build info: version: '3.4.0', revision: 'unknown'
-14:05:29.876 INFO - Launching a standalone Selenium Server
-2017-09-05 14:05:29.914:INFO::main: Logging initialized @410ms to org.seleniumhq.jetty9.util.log.StdErrLog
-14:05:30.027 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-14:05:30.027 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
+14:35:46.829 INFO - Selenium build info: version: '3.4.0', revision: 'unknown'
+14:35:46.831 INFO - Launching a standalone Selenium Server
+2017-09-05 14:35:46.860:INFO::main: Logging initialized @428ms to org.seleniumhq.jetty9.util.log.StdErrLog
+14:35:46.952 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+14:35:46.953 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
 Unable to create new instances on this machine.
-14:05:30.027 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-14:05:30.027 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
-14:05:30.029 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
+14:35:46.953 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+14:35:46.953 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+14:35:46.955 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
  registration capabilities Capabilities [{browserName=safari, version=, platform=MAC}] does not match the current platform WIN10
-2017-09-05 14:05:30.116:INFO:osjs.Server:main: jetty-9.4.3.v20170317
-2017-09-05 14:05:30.170:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@68c4039c{/,null,AVAILABLE}
-2017-09-05 14:05:30.389:INFO:osjs.AbstractConnector:main: Started ServerConnector@6e4bfeee{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
-2017-09-05 14:05:30.390:INFO:osjs.Server:main: Started @885ms
-14:05:30.390 INFO - Selenium Server is up and running
-14:05:31.749 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
-14:05:31.786 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Test Admin, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
-14:05:31.803 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Test Admin, browserName=chrome, javascriptEnabled=true, platform=ANY}]
-Starting ChromeDriver 2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a) on port 32912
+2017-09-05 14:35:47.030:INFO:osjs.Server:main: jetty-9.4.3.v20170317
+2017-09-05 14:35:47.081:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@68c4039c{/,null,AVAILABLE}
+2017-09-05 14:35:47.292:INFO:osjs.AbstractConnector:main: Started ServerConnector@cb644e{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
+2017-09-05 14:35:47.293:INFO:osjs.Server:main: Started @860ms
+14:35:47.293 INFO - Selenium Server is up and running
+14:35:48.401 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
+14:35:48.431 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Test Admin, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+14:35:48.446 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Test Admin, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a) on port 3803
 Only local connections are allowed.
-14:05:34.501 INFO - Detected dialect: OSS
-14:05:34.526 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Test Admin, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
-14:05:34.550 INFO - Executing: [get: http://dev137.finesource.org])
-14:05:35.627 INFO - Done: [get: http://dev137.finesource.org]
-14:05:35.636 INFO - Executing: [find element: By.xpath: //*[@id="admin-form"]/fieldset/section[1]/label[2]/input])
-14:05:36.609 WARN - Exception thrown
+14:35:51.133 INFO - Detected dialect: OSS
+14:35:51.156 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Test Admin, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+14:35:51.180 INFO - Executing: [get: http://dev137.finesource.org])
+14:35:52.312 INFO - Done: [get: http://dev137.finesource.org]
+14:35:52.322 INFO - Executing: [find element: By.xpath: //*[@id="admin-form"]/fieldset/section[1]/label[2]/input])
+14:35:53.389 WARN - Exception thrown
 org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="admin-form"]/fieldset/section[1]/label[2]/input"}
   (Session info: chrome=60.0.3112.113)
   (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 135 milliseconds
+Command duration or timeout: 157 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
 System info: host: 'E5470H-LAPTOP', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\gcarnaz\AppData\Local\Temp\scoped_dir12696_20876}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.113, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: b4288b269a2a624ce1322ab2c313c020
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\gcarnaz\AppData\Local\Temp\scoped_dir9772_6723}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.113, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 3d2490e48ffb30266c68c3f7be1e6a00
 *** Element info: {Using=xpath, value=//*[@id="admin-form"]/fieldset/section[1]/label[2]/input}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -60,29 +60,29 @@ Session ID: b4288b269a2a624ce1322ab2c313c020
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
 	at java.lang.Thread.run(Unknown Source)
-14:05:36.613 WARN - Exception: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="admin-form"]/fieldset/section[1]/label[2]/input"}
+14:35:53.392 WARN - Exception: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="admin-form"]/fieldset/section[1]/label[2]/input"}
   (Session info: chrome=60.0.3112.113)
   (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 135 milliseconds
+Command duration or timeout: 157 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
 System info: host: 'E5470H-LAPTOP', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\gcarnaz\AppData\Local\Temp\scoped_dir12696_20876}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.113, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: b4288b269a2a624ce1322ab2c313c020
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\gcarnaz\AppData\Local\Temp\scoped_dir9772_6723}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.113, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 3d2490e48ffb30266c68c3f7be1e6a00
 *** Element info: {Using=xpath, value=//*[@id="admin-form"]/fieldset/section[1]/label[2]/input}
-14:05:36.681 INFO - Executing: [find element: By.xpath: //*[@id="admin-form"]/fieldset/section[2]/label[2]/input])
-14:05:36.889 WARN - Exception thrown
+14:35:53.480 INFO - Executing: [find element: By.xpath: //*[@id="admin-form"]/fieldset/section[2]/label[2]/input])
+14:35:53.700 WARN - Exception thrown
 org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="admin-form"]/fieldset/section[2]/label[2]/input"}
   (Session info: chrome=60.0.3112.113)
   (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 27 milliseconds
+Command duration or timeout: 29 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
 System info: host: 'E5470H-LAPTOP', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\gcarnaz\AppData\Local\Temp\scoped_dir12696_20876}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.113, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: b4288b269a2a624ce1322ab2c313c020
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\gcarnaz\AppData\Local\Temp\scoped_dir9772_6723}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.113, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 3d2490e48ffb30266c68c3f7be1e6a00
 *** Element info: {Using=xpath, value=//*[@id="admin-form"]/fieldset/section[2]/label[2]/input}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -109,29 +109,29 @@ Session ID: b4288b269a2a624ce1322ab2c313c020
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
 	at java.lang.Thread.run(Unknown Source)
-14:05:36.892 WARN - Exception: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="admin-form"]/fieldset/section[2]/label[2]/input"}
+14:35:53.703 WARN - Exception: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="admin-form"]/fieldset/section[2]/label[2]/input"}
   (Session info: chrome=60.0.3112.113)
   (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 27 milliseconds
+Command duration or timeout: 29 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
 System info: host: 'E5470H-LAPTOP', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\gcarnaz\AppData\Local\Temp\scoped_dir12696_20876}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.113, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: b4288b269a2a624ce1322ab2c313c020
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\gcarnaz\AppData\Local\Temp\scoped_dir9772_6723}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.113, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 3d2490e48ffb30266c68c3f7be1e6a00
 *** Element info: {Using=xpath, value=//*[@id="admin-form"]/fieldset/section[2]/label[2]/input}
-14:05:36.917 INFO - Executing: [find element: By.xpath: //*[@id="admin-form"]/footer/button])
-14:05:37.127 WARN - Exception thrown
+14:35:53.736 INFO - Executing: [find element: By.xpath: //*[@id="admin-form"]/footer/button])
+14:35:53.930 WARN - Exception thrown
 org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="admin-form"]/footer/button"}
   (Session info: chrome=60.0.3112.113)
   (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 36 milliseconds
+Command duration or timeout: 33 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
 System info: host: 'E5470H-LAPTOP', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\gcarnaz\AppData\Local\Temp\scoped_dir12696_20876}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.113, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: b4288b269a2a624ce1322ab2c313c020
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\gcarnaz\AppData\Local\Temp\scoped_dir9772_6723}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.113, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 3d2490e48ffb30266c68c3f7be1e6a00
 *** Element info: {Using=xpath, value=//*[@id="admin-form"]/footer/button}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -158,28 +158,28 @@ Session ID: b4288b269a2a624ce1322ab2c313c020
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
 	at java.lang.Thread.run(Unknown Source)
-14:05:37.128 WARN - Exception: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="admin-form"]/footer/button"}
+14:35:53.930 WARN - Exception: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="admin-form"]/footer/button"}
   (Session info: chrome=60.0.3112.113)
   (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 36 milliseconds
+Command duration or timeout: 33 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
 System info: host: 'E5470H-LAPTOP', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\gcarnaz\AppData\Local\Temp\scoped_dir12696_20876}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.113, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: b4288b269a2a624ce1322ab2c313c020
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\gcarnaz\AppData\Local\Temp\scoped_dir9772_6723}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.113, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 3d2490e48ffb30266c68c3f7be1e6a00
 *** Element info: {Using=xpath, value=//*[@id="admin-form"]/footer/button}
-14:05:41.157 INFO - Executing: [find element: By.xpath: //*[@id="channel-main-label-text"]/strong])
-14:05:45.397 ERROR - Unexpected exception during findElement
+14:35:57.955 INFO - Executing: [find element: By.xpath: //*[@id="channel-main-label-text"]/strong])
+14:36:02.150 ERROR - Unexpected exception during findElement
 org.openqa.selenium.WebDriverException: chrome not reachable
   (Session info: chrome=60.0.3112.113)
   (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 4.03 seconds
+Command duration or timeout: 4.02 seconds
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
 System info: host: 'E5470H-LAPTOP', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\gcarnaz\AppData\Local\Temp\scoped_dir12696_20876}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.113, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: b4288b269a2a624ce1322ab2c313c020
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\gcarnaz\AppData\Local\Temp\scoped_dir9772_6723}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.113, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 3d2490e48ffb30266c68c3f7be1e6a00
 *** Element info: {Using=xpath, value=//*[@id="channel-main-label-text"]/strong}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -206,16 +206,16 @@ Session ID: b4288b269a2a624ce1322ab2c313c020
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
 	at java.lang.Thread.run(Unknown Source)
-14:05:45.398 WARN - Exception thrown
+14:36:02.151 WARN - Exception thrown
 org.openqa.selenium.WebDriverException: chrome not reachable
   (Session info: chrome=60.0.3112.113)
   (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 4.03 seconds
+Command duration or timeout: 4.02 seconds
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
 System info: host: 'E5470H-LAPTOP', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\gcarnaz\AppData\Local\Temp\scoped_dir12696_20876}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.113, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: b4288b269a2a624ce1322ab2c313c020
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\gcarnaz\AppData\Local\Temp\scoped_dir9772_6723}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.113, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 3d2490e48ffb30266c68c3f7be1e6a00
 *** Element info: {Using=xpath, value=//*[@id="channel-main-label-text"]/strong}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -242,15 +242,15 @@ Session ID: b4288b269a2a624ce1322ab2c313c020
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
 	at java.lang.Thread.run(Unknown Source)
-14:05:45.400 WARN - Exception: chrome not reachable
+14:36:02.152 WARN - Exception: chrome not reachable
   (Session info: chrome=60.0.3112.113)
   (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 4.03 seconds
+Command duration or timeout: 4.02 seconds
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
 System info: host: 'E5470H-LAPTOP', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\gcarnaz\AppData\Local\Temp\scoped_dir12696_20876}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.113, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: b4288b269a2a624ce1322ab2c313c020
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\gcarnaz\AppData\Local\Temp\scoped_dir9772_6723}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.113, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 3d2490e48ffb30266c68c3f7be1e6a00
 *** Element info: {Using=xpath, value=//*[@id="channel-main-label-text"]/strong}
-14:05:45.432 INFO - Executing: [delete session: fcd5fa90-00f8-4335-9379-b9216555e2ef])
-14:05:46.397 INFO - Done: [delete session: fcd5fa90-00f8-4335-9379-b9216555e2ef]
+14:36:02.181 INFO - Executing: [delete session: 076ddaee-f2ff-409f-b05a-d8271169c889])
+14:36:03.223 INFO - Done: [delete session: 076ddaee-f2ff-409f-b05a-d8271169c889]
