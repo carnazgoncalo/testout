@@ -55,7 +55,7 @@ const config = { // we use a nightwatch.conf.js file so we can include comments 
                 "chromeOptions": {
                     "args": ["--no-sandbox"]
                 }
-            }
+
             }
         },
         "chrome": { // your local Chrome browser (chromedriver)
