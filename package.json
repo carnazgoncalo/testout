@@ -5,7 +5,7 @@
   "scripts": {
     "postinstall": "node nightwatch.conf.js",
     "start": "node ./bin/www",
-    "test": "sudo nightwatch --env local"
+    "test": "nightwatch --env local"
   },
   "dependencies": {
     "nightwatch": "^0.9.9",

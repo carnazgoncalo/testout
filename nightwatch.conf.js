@@ -1,6 +1,6 @@
 // require('env2')('.env'); // optionally store your environment variables in .env
 const PKG = require('./package.json'); // so we can get the version of the project
-const BINPATH = './node_modules/nightwatch/bin/'; // change if required.
+const BINPATH = '/drivers'; // change if required.
 const SCREENSHOT_PATH = "./node_modules/nightwatch/screenshots/" + PKG.version + "/";
 
 const config = { // we use a nightwatch.conf.js file so we can include comments and helper functions
@@ -10,12 +10,12 @@ const config = { // we use a nightwatch.conf.js file so we can include comments 
     "output_folder": "./node_modules/nightwatch/reports", // reports (test outcome) output by Nightwatch
     "selenium": {
         "start_process": true,
-        "server_path": BINPATH + "selenium.jar", // downloaded by selenium-download module (see below)
+        "server_path":  "drivers/selenium.jar", // downloaded by selenium-download module (see below)
         "log_path": "",
         "host": "127.0.0.1",
         "port": 4444,
         "cli_args": {
-            "webdriver.chrome.driver" : BINPATH + "chromedriver" // also downloaded by selenium-download
+            "webdriver.chrome.driver" :"drivers/chromedriver" // also downloaded by selenium-download
         }
     },
     "test_workers" : {"enabled" : true, "workers" : "auto"}, // perform tests in parallel where possible
